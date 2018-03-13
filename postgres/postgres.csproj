@@ -63,6 +63,12 @@
     <Compile Include="entradasForm2.Designer.cs">
       <DependentUpon>entradasForm2.cs</DependentUpon>
     </Compile>
+    <Compile Include="entradassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entradassForm.Designer.cs">
+      <DependentUpon>entradassForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="entradasForm2.resx">
       <DependentUpon>entradasForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entradassForm.resx">
+      <DependentUpon>entradassForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
